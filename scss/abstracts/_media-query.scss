@@ -1,0 +1,21 @@
+/* mobile: */
+@media screen and (max-width: 700px) {
+    .none_mobile {
+        display: none;
+    }
+}
+
+/* tablet: */
+@media screen and (min-width: 701px) {
+    .none_desktop {
+        display: none;
+    }
+
+    .container {
+        width: 75%;
+    }
+
+    .button_1 {
+        width: 25%;
+    }
+}

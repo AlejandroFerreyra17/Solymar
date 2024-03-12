@@ -1,0 +1,14 @@
+h1 {
+    background: linear-gradient(to right, #9c90aa 40%, #6e6189 50%, #443a67 70%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    animation: gradiant 2s linear infinite;
+}
+  
+@keyframes gradiant {
+    to {
+      background-position: 200% center;
+    }
+}
