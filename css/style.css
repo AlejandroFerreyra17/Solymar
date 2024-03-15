@@ -102,6 +102,10 @@ hr {
   padding: 0.2rem;
 }
 
+.div_none {
+  display: none;
+}
+
 .zoom {
   width: 10%;
 }
